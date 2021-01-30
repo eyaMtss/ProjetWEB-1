@@ -41,4 +41,3 @@ import { UpdateFormateurComponent } from './update-formateur/update-formateur/up
 })
 export class AppModule { }
 
-    
