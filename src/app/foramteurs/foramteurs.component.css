@@ -5,7 +5,7 @@ th{
     color:WHITE;
     text-align :center;
     cursor: pointer;
-    
+
 }
 td{
     width: 700px;
@@ -19,12 +19,12 @@ td{
         left: 500px;
 
 
-    
+
 }
 #t1{
     position: absolute;
     cursor: pointer;
-    
+
     left: 580px;
 
 }
@@ -36,7 +36,7 @@ td{
 }
 #formateur{
     position: absolute;
-    
+
     left: 120px;
 
 }
@@ -57,4 +57,7 @@ td{
     position: relative;
     right: 80px;
     font-size:13px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

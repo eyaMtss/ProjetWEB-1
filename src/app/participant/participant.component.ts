@@ -8,23 +8,21 @@ import { FakeParticipant} from '../services/FakeParticipantService/FakeParticipa
   styleUrls: ['./participant.component.css']
 })
 export class ParticipantComponent implements OnInit {
-  
-    
     participants: Array<any>=[];
 
 
   delete(i:number): void {
     this.participants.splice(i, 1)
-     
+
 
   }
   constructor(private data :FakeParticipant) {
-  
+
    }
 
   ngOnInit(): void {
     this.data.userData.subscribe(d=>this.participants=d)
-     
+
 
   }
 

@@ -13,6 +13,7 @@ import { ParticipantComponent } from './participant/participant.component';
 import { FormsModule }   from '@angular/forms';
 import { SessionItemListComponent } from './session-item-list/session-item-list.component';
 import { AddSession } from './add-session/add-session.component';
+import { UpdateFormateurComponent } from './update-formateur/update-formateur/update-formateur.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AddSession } from './add-session/add-session.component';
     ParticipantComponent,
     UpdateParticipantComponent,
     SessionItemListComponent,
-    AddSession
+    AddSession,
+    UpdateFormateurComponent
   ],
   imports: [
     FormsModule,

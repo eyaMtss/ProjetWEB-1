@@ -8,9 +8,9 @@ import { FakeFormateur } from '../services/FakeFormateurService/FakeFormateur.se
 })
 export class AddFormateurComponent implements OnInit {
 
-  constructor(private data :FakeFormateur) { 
+  constructor(private data :FakeFormateur) {
 
-   
+
 
 
   }
@@ -18,11 +18,11 @@ export class AddFormateurComponent implements OnInit {
   ngOnInit(): void {
   }
   onSubmit(regForm: any) {
-  this.obj={nom : regForm.nom , prenom :regForm.prenom ,adresse :regForm.adresse ,email:regForm.email , domaine :regForm.domaine  }
+  this.obj={nom : regForm.nom , prenom :regForm.prenom ,adresse :regForm.adresse ,email:regForm.email , domaineExpertise :regForm.domaineExpertise }
    console.log(regForm)
    this.data.addData(this.obj)
 
-  
+
   }
 
 }

@@ -1,7 +1,6 @@
-<h1 style="text-align: center;"> Ajouter Un Formateur </h1>
+<h1 style="text-align: center;"> Modifier Un Formateur </h1>
 <div class="container">
     <br>
-
     <form   #f ='ngForm' (ngSubmit) ="onSubmit(f.value)">
         <div class="form-group row">
           <label  class="col-sm-2 col-form-label " >Nom &nbsp;:</label>
@@ -34,11 +33,10 @@
           <div class="form-group row">
             <label  class="col-sm-2 col-form-label">Domaine d'expertise &nbsp; :</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" name="domaineExpertise" id="domaineExpertise" ngModel>
+              <input type="text" class="form-control" name="DomaineExpertise" id="Societe" ngModel>
             </div>
           </div>
           <br>
-          <button  id='ajout'  class="btn btn-primary" style="background-color: #0B0B3B;color: white;"> Ajouter </button>
+          <button  id='ajout'  class="btn btn-primary" style="background-color: #0B0B3B;color: white;"> Modifier </button>
       </form>
-
     </div>
